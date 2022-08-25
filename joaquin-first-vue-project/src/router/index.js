@@ -1,4 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
+import ToDoItemView from '../views/ToDoItemView';
 import HomeView from '../views/HomeView.vue';
 
 const routes = [
@@ -6,6 +7,11 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView,
+  },
+  {
+    path: '/todo-item-view',
+    name: 'todo-item-view',
+    component: ToDoItemView,
   },
   {
     path: '/about',
