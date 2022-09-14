@@ -1,13 +1,20 @@
 <template>
-  <div>
-    <h1>{{ message }}</h1>
+  <div class="todoitem">
+    <button @click="helloMessage">Show</button>
+    <button @click="welcomeWorld">Botón Stargate</button>
   </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return { message: 'This is the ToDoItem component' };
+  name: 'ToDoItem',
+  methods: {
+    helloMessage() {
+      console.log('This is the ToDoItem component');
+    },
+    welcomeWorld() {
+      console.log('Bienvenido al mundo de Daniel');
+    },
   },
 };
 </script>

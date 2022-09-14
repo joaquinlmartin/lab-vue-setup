@@ -1,16 +1,16 @@
 <template>
     <div>
-        <NewConponent />
+        <NewComponent />
     </div>
 </template>
 
 <script>
-import NewConponent from "./NewComponent.vue";
+import NewComponent from '@/components/NewComponent.vue';
 
 export default {
   name: 'NewConponent',
   components: {
-    NewConponent,
+    NewComponent,
   },
 };
 

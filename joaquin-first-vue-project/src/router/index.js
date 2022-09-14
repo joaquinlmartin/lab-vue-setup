@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import ToDoItemView from '../views/ToDoItemView.vue';
 import HomeView from '../views/HomeView.vue';
-import NewComponent from '../views/NewComponent.vue'
+import NewComponentView from '../views/NewComponent.vue';
 
 const routes = [
   {
@@ -13,6 +13,11 @@ const routes = [
     path: '/todo-item-view',
     name: 'todo-item-view',
     component: ToDoItemView,
+  },
+  {
+    path: '/new-component-view',
+    name: 'new-component-view',
+    component: NewComponentView,
   },
   {
     path: '/about',
