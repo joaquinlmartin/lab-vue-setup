@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-import ToDoItemView from '../views/ToDoItemView';
+import ToDoItemView from '../views/ToDoItemView.vue';
 import HomeView from '../views/HomeView.vue';
 
 const routes = [
