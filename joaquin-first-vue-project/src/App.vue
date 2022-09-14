@@ -2,7 +2,8 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-    <router-link to="/TodoItem">TodoItem</router-link>
+    <router-link to="/TodoItem">To do Item</router-link>
+    <router-link to="/NewComponent">New Component</router-link>
   </nav>
   <router-view/>
 </template>
@@ -28,4 +29,8 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
+div {
+    color: red;
+  }
 </style>

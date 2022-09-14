@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import ToDoItemView from '../views/ToDoItemView';
 import HomeView from '../views/HomeView.vue';
+import NewComponent from '../views/NewComponent.vue'
 
 const routes = [
   {
