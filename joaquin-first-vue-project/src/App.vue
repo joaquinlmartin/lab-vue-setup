@@ -1,9 +1,9 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    <router-link to="/TodoItem">To do Item</router-link>
-    <router-link to="/NewComponent">New Component</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/todo-item-view">To do Item</router-link> |
+    <router-link to="/new-component-view">New Component</router-link>
   </nav>
   <router-view/>
 </template>
@@ -15,6 +15,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+#todo-item {
+  color: red;
 }
 
 nav {
@@ -31,6 +35,6 @@ nav a.router-link-exact-active {
 }
 
 div {
-    color: red;
+    color: royalblue;
   }
 </style>

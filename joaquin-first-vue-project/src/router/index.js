@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import ToDoItemView from '../views/ToDoItemView.vue';
 import HomeView from '../views/HomeView.vue';
-import NewComponent from '../views/NewComponent.vue';
+import NewComponentView from '../views/NewComponent.vue';
 
 const routes = [
   {
@@ -17,7 +17,7 @@ const routes = [
   {
     path: '/new-component-view',
     name: 'new-component-view',
-    component: NewComponent,
+    component: NewComponentView,
   },
   {
     path: '/about',
